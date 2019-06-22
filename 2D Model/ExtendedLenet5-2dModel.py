@@ -1,4 +1,5 @@
 import os
+import sys
 
 import nibabel as nib
 import torch
@@ -59,9 +60,7 @@ def sample_generator_specific_axis(data_list, axis):
                     np_label[0][0] = 1
                 else:
                     np_label[0][1] = 1
-                from PIL import Image
-                im = Image.fromarray(np.uint8(cm.gist_earth(x_slices[i]) * 255))
-                im.show()
+
                 yield (composed_transform(x_slices[i]), torch.Tensor(np_label).long(), mri_number)
 
         mri_number += 1
@@ -83,7 +82,7 @@ def generate_dataset(full_dataset):
 
 
 def generate_mri_label_pairs():
-    dataset_path = "dataset/"
+
     classes = os.listdir(dataset_path)
     full_data = []
     for class_type in classes:
@@ -409,6 +408,7 @@ composed_transform = transforms.Compose([
     transforms.Resize((32, 32)),
     transforms.ToTensor(),
 ])
+dataset_path = sys.argv[1]
 device = torch.device('cuda:0')
 learning_rate = 0.000011  # Define learning rate
 epoch_num = 30  # Define epoch count2
