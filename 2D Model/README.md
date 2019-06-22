@@ -1,6 +1,6 @@
 # 2D Lenet5 Model
 
-Extended Lenet5 is used for classifying Alzheimer Disease.
+Extended Lenet5 was used for classifying Alzheimer Disease.
 
 ## Library Requirements:
 
