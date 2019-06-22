@@ -1,4 +1,7 @@
 # Classifying-Alzheimer-s-Disease
+
+Code is developed using Python 3.7.
+
 # 2D Lenet5 Model
 
 Extended Lenet5 was used for classifying Alzheimer Disease.
@@ -30,20 +33,21 @@ python3 2DModel/ExtendedLenet5-2dModel.py <path-to-root-data-folder>
 
 # 3D Model
 
-Extended Lenet5 was used for classifying Alzheimer Disease.
+3D Model was used for classifying Alzheimer Disease.
 
 ## Library Requirements:
 
 
 ```
-matplotlib v3.1.0
-numpy v1.16.3
-torch v1.0.0
-torchvision v0.3.0
-nipype v1.2.0
-nibabel v2.4.1
-seaborn v0.9.0
-pandas v0.24.2
+matplotlib 3.1.0
+numpy 1.16.3
+torch 1.0.0
+torchvision 0.3.0
+nipype 1.2.0
+nibabel 2.4.1
+seaborn 0.9.0
+pandas 0.24.2
+scikit-learn 0.20.3
 ```
 
 
