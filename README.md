@@ -4,7 +4,7 @@ Code is developed using Python 3.7.
 
 # 2D Lenet5 Model
 
-Extended Lenet5 was used for classifying Alzheimer Disease.
+Extended Lenet5 was used for classifying Alzheimer's Disease.
 
 ## Library Requirements:
 
@@ -33,7 +33,7 @@ python3 2DModel/ExtendedLenet5-2dModel.py <path-to-root-data-folder>
 
 # 3D Model
 
-3D Model was used for classifying Alzheimer Disease.
+3D Model was used for classifying Alzheimer's Disease.
 
 ## Library Requirements:
 
