@@ -1,11 +1,56 @@
 # Classifying-Alzheimer-s-Disease
-Library Requirements for 2D Model
-Library Requirements for 3D Model
--matplotlib v3.1.0
--numpy v1.16.3
--torch v1.0.0
--torchvision v0.3.0
--nipype v1.2.0
--nibabel v2.4.1
--seaborn v0.9.0
--pandas v0.24.2
+# 2D Lenet5 Model
+
+Extended Lenet5 was used for classifying Alzheimer Disease.
+
+## Library Requirements:
+
+
+```
+nibabel 2.4.1 
+opencv-python 4.0.0.21 
+opencv-contrib-python 4.0.0.21 
+Pillow 6.0.0 
+matplotlib 3.0.3
+medicaltorch 0.2 
+scikit-learn 0.21.2 
+torch 1.1.0 
+torchvision 0.3.0 
+torchviz 0.0.1 
+tqdm 4.32.1
+```
+
+
+## Usage
+
+```
+python3 2D Model/ExtendedLenet5-2dModel.py <path-to-root-data-folder>
+
+```
+
+# 2D Lenet5 Model
+
+Extended Lenet5 was used for classifying Alzheimer Disease.
+
+## Library Requirements:
+
+
+```
+matplotlib v3.1.0
+numpy v1.16.3
+torch v1.0.0
+torchvision v0.3.0
+nipype v1.2.0
+nibabel v2.4.1
+seaborn v0.9.0
+pandas v0.24.2
+```
+
+
+## Usage
+
+```
+python3 3D Model/main.py <path-to-root-data-folder>
+
+```
+
