@@ -24,11 +24,11 @@ tqdm 4.32.1
 ## Usage
 
 ```
-python3 2D Model/ExtendedLenet5-2dModel.py <path-to-root-data-folder>
+python3 2DModel/ExtendedLenet5-2dModel.py <path-to-root-data-folder>
 
 ```
 
-# 2D Lenet5 Model
+# 3D Model
 
 Extended Lenet5 was used for classifying Alzheimer Disease.
 
@@ -50,7 +50,7 @@ pandas v0.24.2
 ## Usage
 
 ```
-python3 3D Model/main.py <path-to-root-data-folder>
+python3 3DModel/main.py <path-to-root-data-folder>
 
 ```
 
