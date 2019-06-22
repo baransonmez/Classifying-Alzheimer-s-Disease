@@ -27,8 +27,7 @@ class LeNet5(nn.Module):
             ('relu6', nn.ReLU()),
             ('dropout', nn.Dropout(0.5)),
             ('f8', nn.Linear(28, 2)),
-            # ('sig7', nn.LogSigmoid())
-            ('sig7', nn.LogSoftmax())
+            ('soft9', nn.LogSoftmax())
         ]))
 
     def forward(self, img):
